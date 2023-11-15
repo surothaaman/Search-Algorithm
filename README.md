@@ -19,13 +19,59 @@ To write a program to perform linear search and binary search using python progr
 ## Program:
 i)	#Use a linear search method to match the item in a list.
 ```
-
-
+Program for linear search method to match the item in a list
+Developed by:Surothaaman R
+RegisterNumber: 212222103003
+'''
+def linearSearch(array,n,k):
+    for i in range(0,n):
+        if(array[i]==k):
+            return i
+    return -1
+array = eval(input())
+# sort the array
+k = eval(input()) # k-item to be seared for
+# get the length of array and store in the variable n
+n=len(array)
+array.sort()
+result = linearSearch(array,n,k)
+# use the function for linear search
+# use if-else to print sorted array and "Element not found" if the item is not present in the list otherwise print sorted array and "Element found at index: ", result
+if result==-1:
+    print(array)
+    print("Element not found")
+else:
+    print(array)
+    print("Element found at index: ",result)
+    
+    
+    
 
 ```
 ii)	# Find the element in a list using Binary Search(Iterative Method).
 ```
-
+def linearSearch(array,n,k):
+    for i in range(0,n):
+        if(array[i]==k):
+            return i
+    return -1
+array = eval(input())
+# sort the array
+k = eval(input()) # k-item to be seared for
+# get the length of array and store in the variable n
+n=len(array)
+array.sort()
+result = linearSearch(array,n,k)
+# use the function for linear search
+# use if-else to print sorted array and "Element not found" if the item is not present in the list otherwise print sorted array and "Element found at index: ", result
+if result==-1:
+    print(array)
+    print("Element not found")
+else:
+    print(array)
+    print("Element found at index: ",result)
+    
+    
 
 
 
@@ -34,14 +80,36 @@ ii)	# Find the element in a list using Binary Search(Iterative Method).
 iii)	# Find the element in a list using Binary Search (recursive Method).
 ```
 
-
+def linearSearch(array,n,k):
+    for i in range(0,n):
+        if(array[i]==k):
+            return i
+    return -1
+array = eval(input())
+# sort the array
+k = eval(input()) # k-item to be seared for
+# get the length of array and store in the variable n
+n=len(array)
+array.sort()
+result = linearSearch(array,n,k)
+# use the function for linear search
+# use if-else to print sorted array and "Element not found" if the item is not present in the list otherwise print sorted array and "Element found at index: ", result
+if result==-1:
+    print(array)
+    print("Element not found")
+else:
+    print(array)
+    print("Element found at index: ",result)
+    
+    
 
 
 
 ```
-## Sample Input and Output
-
-
+OUTPUT:
+![Screenshot (89)](https://github.com/surothaaman/Search-Algorithm/assets/133313653/aa48fd43-a922-49c3-85ba-cbbef5259bfe)
+![Screenshot (90)](https://github.com/surothaaman/Search-Algorithm/assets/133313653/aa1b7594-a512-4d09-815a-faab96f979b5)
+![Screenshot (91)](https://github.com/surothaaman/Search-Algorithm/assets/133313653/33ba3697-9111-44fa-b3bf-7dbc31376aaf)
 
 
 
